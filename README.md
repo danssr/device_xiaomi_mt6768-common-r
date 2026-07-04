@@ -1,1 +1,1 @@
-# Common device tree for Xiaomi MT6768 devices
+# Common Device Tree for Xiaomi MT6768 Devices
