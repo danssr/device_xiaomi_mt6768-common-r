@@ -521,28 +521,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Define rear camera specs (multiple sensors supported)
-AXION_CAMERA_REAR_INFO := 48,8,8,2
-
-# Define front camera specs
-AXION_CAMERA_FRONT_INFO := 8
-
-# Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
-AXION_MAINTAINER := doissM
-
-# Processor name (use "_" for spaces)
-AXION_PROCESSOR := Helio_G85
-
-TARGET_ENABLE_BLUR := false
-
-TARGET_INCLUDES_LOS_PREBUILTS := true
-
-PRODUCT_NO_CAMERA := false
-
-PERF_GOV_SUPPORTED := true
-
-PERF_DEFAULT_GOV := schedutil
-
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
